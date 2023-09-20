@@ -41,7 +41,7 @@ if (!empty($error) && $error <= '4') {
                                     <?php
                                     switch ($error) {
                                         case '1':
-                                            echo "Preencha todos os campos para continuar.";
+                                            echo "É necessário preencher todos os campos antes de continuar.";
                                             break;
 
                                         case '2':
